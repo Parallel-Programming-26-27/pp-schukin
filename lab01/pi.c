@@ -3,10 +3,6 @@
 #include <math.h>
 #include <omp.h>
 
-#ifndef M_PI
-#define M_PI 3.14159265358979323846
-#endif
-
 int main(int argc, char **argv) {
     long long n = 1000000000LL;          
     int threads = omp_get_max_threads(); 
